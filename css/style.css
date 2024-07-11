@@ -1,0 +1,109 @@
+/*Impostazioni di reset*/
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*impostazioni generiche */
+
+body {
+    font-family: sans-serif;
+
+}
+
+header {
+    background-color: lightblue;
+}
+
+
+
+/*Strumenti contenitore */
+
+.container {
+    /* serve per evitare che gli elementi vadano oltre una certa misura */
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+.flex {
+
+    display: flex;
+}
+
+
+.debug .border {
+    /* serve per spegnerere e riaccendere i bordi */
+
+    border: 2px solid;
+}
+
+
+
+.navbar {
+
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*la  prima è una nav bar perchè in alcune pagine se premi il logo ti riporta alla home quindi  ha un link di dentro 
+
+*/

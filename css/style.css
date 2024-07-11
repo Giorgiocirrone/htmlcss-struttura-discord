@@ -45,10 +45,26 @@ header {
 }
 
 
-
+/*strumento che vale per gli header*/
 .navbar {
 
     height: 80px;
+    display: flex;
+    /*cosi facendo mi occupano l'altezza perchè stretch*/
+    align-items: center;
+    justify-content: space-between;
+    /*cosi spazio tutto fino  */
+
+}
+
+
+
+.navba>* {
+    /* diamo area a tutti i figli diretti*/
+    padding: 10px 0;
+    background-color: goldenrod;
+
+
 }
 
 
@@ -102,8 +118,6 @@ header {
 
 
 
-
-
 /*la  prima è una nav bar perchè in alcune pagine se premi il logo ti riporta alla home quindi  ha un link di dentro 
-
+ poi fare distendere i continuti  flex e ci sbrighiamo 
 */

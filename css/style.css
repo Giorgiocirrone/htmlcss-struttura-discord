@@ -65,6 +65,7 @@ header {
     min-height: 550px;
     background-color: blue;
     padding: 60px;
+    /*centratura visiva */
     display: flex;
     justify-content: center;
 
@@ -103,7 +104,14 @@ header {
 
 
 
+/*parte main alle sezioni do sempre la stessa grandezza*/
 
+section {
+
+    min-height: 700px;
+
+    padding: 80px;
+}
 
 
 
@@ -145,5 +153,5 @@ header {
 
 
 /*la  prima è una nav bar perchè in alcune pagine se premi il logo ti riporta alla home quindi  ha un link di dentro 
- poi fare distendere i continuti  flex e ci sbrighiamo 
+ poi fare distendere i continuti  flex e ci sbrighiamo  nel voglio anche nel blocco princiapale che tutto non sia perfettamente centaraot 
 */

@@ -52,28 +52,54 @@ header {
     display: flex;
     /*cosi facendo mi occupano l'altezza perchè stretch*/
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     /*cosi spazio tutto fino  */
 
 }
 
 
+/*costruzione blocco princiaple header secondario*/
 
-.navba>* {
-    /* diamo area a tutti i figli diretti*/
-    padding: 10px 0;
-    background-color: goldenrod;
+.blocco-principale {
 
+    min-height: 550px;
+    background-color: blue;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.blocco-principale .contenuto {
+
+    width: 50%;
+    background-color: pink;
 
 }
 
 
 
 
+.navba>* {
+    /* diamo area a tutti i figli diretti le seguenti proprietà in modo tale  da renderli adattivi  */
+    padding: 10px 0;
+    flex-basis: 20%;
+    background-color: goldenrod;
 
 
+}
+
+.navbar-menu {
+
+    flex-grow: 1;
+    text-align: center;
+}
 
 
+.navbar-actions {
+    text-align: right;
+    /*allineati a destra */
+}
 
 
 

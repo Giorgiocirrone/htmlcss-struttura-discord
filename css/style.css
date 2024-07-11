@@ -108,9 +108,15 @@ header {
 
 section {
 
-    min-height: 700px;
+    height: 700px;
 
-    padding: 80px;
+    padding: 80px 0;
+}
+
+section>.container {
+    /*stretch di default */
+
+    height: 100%;
 }
 
 
@@ -119,8 +125,26 @@ section {
 
 
 
+/*le 4 sezioni sono formate da 2 colonne 
+mettile dentro il container delle sezioni cosi da delimitare l'area*/
 
+.colonna-grande {
+    background-color: dodgerblue;
+    flex-basis: 60%;
 
+}
+
+.colonna-piccola {
+
+    background-color: pink;
+    flex-basis: 40%;
+}
+
+.colonna-piena {
+
+    flex-basis: 100%;
+    background-color: darkgreen;
+}
 
 
 
